@@ -1,0 +1,72 @@
+footer {
+    background-color: var(--tertiary-color);
+    .bg {
+        background-image: url(/resources/img/footer-bg.jpg);
+        height: 500px;
+        background-size: cover;
+        .container {
+            margin-top: 0;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: right;
+            display: flex;
+            &:first-child {
+                background-image: url(/resources/img/dc-logo-bg.png);
+                .col {
+                    margin: 0 20px 0 0;
+                    ul {
+                        list-style: none;
+                        color: white;
+                        padding-left: 0;
+                        li {
+                            margin-bottom: 5px;
+                            font-size: 14px;
+                            &:first-child {
+                                margin: 10px 0;
+                            }
+                            a {
+                                text-decoration: none;
+                                color: var(--quaternary-color);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        p {
+            font-size: 14px;
+            color: var(--quaternary-color);
+        }
+    }
+    #copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6.875rem;
+        margin-top: 10px;
+        button {
+            background-color: transparent;
+            border: 2px solid var(--primary-color);
+            padding: 10px;
+            a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+            }
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            li {
+                margin: 0 10px;
+                color: var(--primary-color);
+                font-weight: bold;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
