@@ -20,6 +20,9 @@
     @include('partials.header')
 
     <main>
+        <section class="hero">
+            <div class="current-series">CURRENT SERIES</div>
+        </section>
         @yield('page-content')
     </main>
 

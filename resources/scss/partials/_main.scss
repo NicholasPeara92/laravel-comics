@@ -1,0 +1,43 @@
+main {
+    background-color: var(--secondary-color);
+    color: white;
+    text-align: center;
+}
+.hero {
+    background-image: url(/resources/img/jumbotron.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    position: relative;
+}
+.current-series {
+    position: absolute;
+    bottom: -25px;
+    left: 18.75rem;
+    background-color: var(--primary-color);
+    padding: 0.625rem 1.875rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1.875rem;
+}
+.comic {
+    width: calc(100% / 6);
+    img {
+        width: 11.625rem;
+        height: 11.625rem;
+    }
+}
+button {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    padding: 0.3125rem 2.5rem;
+    margin: 1.25rem;
+}
