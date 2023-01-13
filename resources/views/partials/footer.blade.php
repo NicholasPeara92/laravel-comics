@@ -5,7 +5,7 @@
                 <div class="col">
                     <ul>
                         <li>
-                            <h3>DC COMICS</h3>
+                            <h4>DC COMICS</h4>
                         </li>
                         <li><a href="#">Characters</a></li>
                         <li><a href="#">Comics</a></li>
@@ -17,7 +17,7 @@
                     </ul>
                     <ul>
                         <li>
-                            <h3>SHOP</h3>
+                            <h4>SHOP</h4>
                         </li>
                         <li><a href="#">Shop DC</a></li>
                         <li><a href="#">Shop DC Collectibles</a></li>
@@ -26,7 +26,7 @@
                 <div class="col">
                     <ul>
                         <li>
-                            <h3>DC</h3>
+                            <h4>DC</h4>
                         </li>
                         <li><a href="#">Terms Of Use</a></li>
                         <li><a href="#">Privacy Policy (New)</a></li>
@@ -44,7 +44,7 @@
                 <div class="col">
                     <ul>
                         <li>
-                            <h3>SITES</h3>
+                            <h4>SITES</h4>
                         </li>
                         <li><a href="#">DC</a></li>
                         <li><a href="#">MAD Magazine</a></li>
