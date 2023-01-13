@@ -1,0 +1,33 @@
+.pre-footer {
+    background-color: var(--primary-color);
+    height: 9.6875rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    .container {
+        display: flex;
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            margin: 0 20px;
+            li {
+                display: flex;
+                align-items: center;
+                margin: 0 10px;
+                img {
+                    height: 50px;
+                    width: 55px;
+                    object-fit: contain;
+                }
+                a {
+                    display: inline-block;
+                    padding: 20px 10px;
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
